@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+}
+
+body {
+    background-color: rgb(80, 120, 230);
+}
+
+header h2 {
+    text-align: center;
+    color: white;
+    font-size: 4rem;
+    padding: 1rem;
+    text-shadow:  -1px 1px 1px rgb(253, 165, 0);
+}
+
+
+#dados1 {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    padding: 0rem 9rem;
+}
+
+#dados2  {
+    width: 50%;
+    height: 100vh;
+    float: left;
+    padding: 0rem 9rem;
+}
+
+input {
+    width: 30rem;
+    height: 3.2rem;
+    font-size: 1.3rem;
+    font-family: Tahoma;
+    color: black;
+    margin-top: 0.7rem;
+    background-color: rgb(255, 249, 249);
+    border-radius: 0.6rem;
+    border: 2px solid rgb(253, 165, 0);
+    padding: 0.3rem;
+}
+
+select {
+    width: 30rem;
+    height: 3.2rem;
+    font-size: 1.3rem;
+    font-family: Tahoma;
+    color: black;
+    margin-top: 0.7rem;
+    background-color: rgb(255, 249, 249);
+    border-radius: 0.6rem;
+    border: 2px solid rgb(253, 165, 0);
+    padding: 0.3rem;
+}
+
+button {
+    width: 30rem;
+    height: 3.2rem;
+    margin-top: 0.7rem;
+    background-color:  rgb(253, 165, 0);
+    border-radius: 0.6rem;
+    border: 2px solid rgb(253, 165, 0);
+    padding: 0.3rem;
+    color: white;
+    font-size: 2rem;
+}
